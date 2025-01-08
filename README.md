@@ -5,9 +5,6 @@
 - [Architecture](#architecture)
 - [Features](#features)
 - [Installation](#installation)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Introduction
 This project is an alert system that sends real-time NBA game day score notifications to subscribers via SMS/Email. 
@@ -86,14 +83,7 @@ cd game-day-notifications
 - Confirm the subscription by clicking the confirmation link in the email.
 6. For SMS, the subscription will be immediately active after creation.
 
-  ![image](https://github.com/user-attachments/assets/6841c9d7-98df-40de-8691-443989d6cb2a)
-
   ![image](https://github.com/user-attachments/assets/d4adba4c-5b92-44f0-b186-e888dc90154f)
-
-  ![image](https://github.com/user-attachments/assets/5345fa44-af2b-42ef-aa95-9a6ec0f98bfe)
-
-
-
 
 ### **Create the SNS Publish Policy**
 1. Open the IAM service in the AWS Management Console.
@@ -170,7 +160,7 @@ cd game-day-notifications
 3. Run the function and check CloudWatch Logs for errors.
 4. Verify that SMS notifications are sent to the subscribed users.
    
-   - After a few hours, I recieved sevsral game-day updates at regular interval defined by the cron job, in my email, triggered by the lambda function as designed.
+   - After a few hours, I recieved several game-day updates at regular interval defined by the cron job, in my email, triggered by the lambda function as designed.
   
 ![image](https://github.com/user-attachments/assets/ccf7d9db-e621-4423-b05d-4cddef37a5fa)
 
